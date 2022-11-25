@@ -1,0 +1,21 @@
+# Assignment 3
+
+## Requirements
+- Docker & Docker COmpose
+- VSCode
+
+### Extensions
+- [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+## Resources
+- [Django Setup](https://github.com/docker/awesome-compose/tree/master/django)
+- [Django Setup + Postgres](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/)
+
+## Getting Started
+Follow the links above.
+
+## Issues
+Read the docs in the link posted [here](#resources) again.
+
+### Note
+Django image on docker hub is deprecated
