@@ -10,9 +10,15 @@
 ## Resources
 - [Django Setup](https://github.com/docker/awesome-compose/tree/master/django)
 - [Django Setup + Postgres](https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/django/)
+- [Django Tutorial](https://docs.djangoproject.com/en/4.1/intro/tutorial01/)
 
 ## Getting Started
 Follow the links above.
+Navigate into `/assignment3site`
+Run the following. (Note: Docker should have executed it upon building the container):
+```bash
+    python3 manage.py runserver
+```
 
 ## Issues
 Read the docs in the link posted [here](#resources) again.
