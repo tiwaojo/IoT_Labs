@@ -1,4 +1,39 @@
 # Assignment 3
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Code Structure and Explanation
+
+models.py: https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/models.py 
+
+The models.py file contains the model for the mode and state data. It defines the type of data that will be stored and handled for controlling the home automation system mode and keeping track of the state of the light application.
+
+searilizers.py:
+https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/serializers.py 
+
+The serializers.py file contains the model serializers logic. Serializers help with converting the model instances to native python data types which can be rendered into various content types like JSON.
+
+views.py:
+https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/views.py 
+
+Views.py file contains the viewsets for the models. It contains the logic for a set of related views into a single class. By using viewsets we can automatically generate URL conf by registering them with a router class.
+
+urls.py:
+https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/urls.py 
+
+Urls.py contains the URL patterns for the mode and state services of our system. It contains the routing logic which determines how the URLs of an application are mapped to the logic that deals with the incoming request.
+
+controller.py:
+https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/controller.py 
+
+The controller.py contains the code for the controller service. The code is used for interacting with the database to collect the current state of the light appliance (LED light) and control the light appliance (LED light) state.
+
+lights.html:
+https://github.com/tiwaojo/IoT_Labs/blob/master/Assignment3/assignment3site/dashboard/templates/lights.html
+
+The lights.html file contains the template for the application user interface. It defines the different components of the home automation system dashboard.
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Requirements
 - Docker & Docker COmpose
@@ -26,3 +61,5 @@ Read the docs in the link posted [here](#resources) again.
 
 ### Note
 Django image on docker hub is deprecated
+
+------------------------------------------------------------------------------------------------------------------------------------------
