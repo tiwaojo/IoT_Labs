@@ -12,6 +12,8 @@ COPY requirements.txt /app
 # RUN apt-get update && \
 # RUN sudo apt-get install python3-dev git -y
 # mosquitto mosquitto-clients
+# try pip if pip3 doesn't work
+RUN pip3 install djangorestframework markdown django-filter pyserial nanpy arduino-python3
 RUN pip3 install -r requirements.txt --no-cache-dir
 COPY . /app
 ENTRYPOINT ["python3"]

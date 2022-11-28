@@ -4,6 +4,10 @@ services:
     build: .
     ports:
       - '8000:8000'
+    devices:
+      - "/dev/ttyUSB0:/dev/ttyUSB0"
+      - "/dev/ttyACM0:/dev/ttyACM0" # https://dev.to/luckierdodge/how-to-communicate-with-an-arduino-from-docker-3fo7
+      - "/dev/sda:/dev/xvda:rwm"
   #   volumes:
   #     - .:/code
   #   environment:
